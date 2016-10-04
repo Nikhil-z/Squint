@@ -3,7 +3,7 @@ Provide Diagonal cut on view with awesome customization #DiagonalView
 
 Preview
 --------
-![png](Screenshot/screenshot.png)
+![Screenshot](screenshot.png)
 
 -------
 
@@ -82,47 +82,6 @@ diagonalView.setGravity(DiagonalView.Gravity.LEFT);
 
 // to set the background color (color should have some alpha val)
 diagonalView.setColorTint(Color.GREEN);
-```
-
-### Zoom View
-
-#### XML Implementation:
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:blaze="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.intrusoft.blaze.app.MainActivity">
-
-    <com.intrusoft.blaze.ZoomView
-        android:id="@+id/zoom_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        blaze:src="@drawable/place_holder"
-        blaze:translation_factor="0.4" />
-</FrameLayout>
-```
-
-```xml
-blaze:translation_factor 
-<!-- defines the animation speed-->
-```
-
-#### Java Implementation:
-```java
-ZoomView zoomView = (MotionView) findViewById(R.id.motion_view);
-
-// to set image from resources
-zoomView.setImageResource(R.drawable.your_image);
-
-// to set bitmap
-zoomView.setImageBitmap(yourBitmap);
-
-// to set the animation speed
-zoomView.setTranslationFactor(0.4f);
 ```
 
 Licence
