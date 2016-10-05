@@ -1,4 +1,8 @@
 # Squint
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Squint-blue.svg?style=flat-square)](http://android-arsenal.com/details/1/4458)
+[![API](https://img.shields.io/badge/API-9%2B-yellowgreen.svg?style=flat-square)](https://github.com/intrudershanky/Squint.git)
+[![License](https://img.shields.io/badge/License-Apache%202-green.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+--------
 Provide Diagonal cut on view with awesome customization #DiagonalView
 
 Preview
